@@ -28,7 +28,7 @@ def extrair_etiquetas(input_pdf, output_temp):
         largura = float(page.mediabox.width)
         altura = float(page.mediabox.height)
 
-        # 🔥 SEUS AJUSTES (mantidos)
+        # AJUSTES
         margem_esquerda = largura * 0.0
         margem_topo = altura * 0.0
 
